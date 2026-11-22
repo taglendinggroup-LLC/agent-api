@@ -1,0 +1,33 @@
+{
+  "name": "@tag-lending-group/agent-api",
+  "version": "1.0.1",
+  "description": "Official read-only SDK and CLI for the TAG Lending Group public agent API (company, licensing, contact, loan program links). No rates, pricing or borrower data.",
+  "type": "module",
+  "main": "index.js",
+  "exports": "./index.js",
+  "bin": {
+    "agent-api": "bin/taglending.js",
+    "taglending": "bin/taglending.js"
+  },
+  "files": [
+    "index.js",
+    "bin/",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "tag-lending-group",
+    "mortgage",
+    "wholesale-lender",
+    "api",
+    "sdk",
+    "cli",
+    "mcp",
+    "agents"
+  ],
+  "homepage": "https://taglendinggroup.com/developers",
+  "license": "MIT",
+  "author": "TAG Lending Group LLC (NMLS #2329372)"
+}
